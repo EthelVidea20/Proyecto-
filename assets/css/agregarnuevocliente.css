@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+:root {
+    --color_text-primario: #34358D;
+    --color_text_secundario: #000000;
+    --color_text_terciario: #F6F1EF;
+
+}
+
+
+.agregar_nuevocliente{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    margin-top: 40px;
+   
+   
+    padding: 0px 20px;
+    background: rgba(214, 222, 245, 0.201);
+
+}

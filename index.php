@@ -23,6 +23,7 @@
         <div class="menu">
             <nav id="nav">
                 <ul>
+                    
                     <li>Funcionalidades</li>
                     <li>Quienes somos</li>
 
@@ -40,10 +41,20 @@
 </header>
 
 <body>
-    <div class="portada">
-        <h2>GP es una herramienta que te ayudara a gestionar tus presupuestos!</h2>
-        <img src="./assets/img/portadagp.png" alt="">
+    <div class="contenedor">
+
+   
+        <div class="portada">
+            <h2>GP es una herramienta que te ayudara a gestionar tus presupuestos!</h2>
+            <img src="./assets/img/portadagp.png" alt="">
+        </div>
+
+        <div class="botones">
+            <p>GP es la mejor Herramienta para gestionar tus presupuestos,     
+            pudes facturar, ingresar tus ingresos todo en una sola pagina GP</p>
+            <input type="button" value="Inicia seccion" class="btninicio">
+            <input type="button" value="Registrate" class="btnregistro">
+
+        </div>
     </div>
-
-
 </body>

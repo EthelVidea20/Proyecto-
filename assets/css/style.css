@@ -5,6 +5,12 @@
     text-decoration: none;
 
 }
+:root{
+    --color_text-primario:#34358D;
+    --color_text_secundario:#000000;
+    --color_text_terciario:#F6F1EF;
+    
+}
 
 header{
     width: 100%;
@@ -79,5 +85,53 @@ header{
     width: 400px;
     border-radius: 15px;
     margin-left: 5px;
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left:30px;
+    justify-self: unset;
+
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(214, 222, 245, 0.098);
+    margin-right: 30px;
+    border-radius: 15px;
+}
+.botones p{
+    text-align: justify;
+    padding: 50px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    font-size: x-large;
+    font-style: italic;
+    color:var(--color_text-primario) ;
+}
+.btninicio{
+    margin-bottom: 15px;
+    color:white;
+    background:#638cb5;
+    border:5px;
+    border-radius: 5px;
+    font-size: larger;
+    width:120px;
+    height:25px;
+
+}
+.btnregistro{
+    color:white;
+    background:#638cb5;
+    border:5px;
+    border-radius: 5px;
+    font-size: larger;
+    width:95px;
+
+    height:25px;
+
 
 }
