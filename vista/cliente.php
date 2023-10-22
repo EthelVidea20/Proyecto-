@@ -11,7 +11,7 @@
 <body>
 
     <?php
-        include("./header.php");
+    include("./header.php");
     ?>
     <main>
         <form class="contenedor_clientes">
@@ -20,11 +20,36 @@
 
                 <input type="text" name="buscar" id="" placeholder="Buscar">
                 <input type="button" value="Buscar" class="btnbuscar">
-                <input type="button" value="Nuevo" class="btnnuevo">
-                
+                <a href="../"></a>
+
+                <a href="../vista/agregarnuevocliente.php" class="btnnuevo">Nuevo</a>
             </div>
             <div class="listaclientes">
-            <table class="content-table"> <thead> <tr> <th>Identificación</th> <th>Nombre</th> </tr> </thead> <tbody> <tr> <td>178-4828</td> <td>Juan Perez</td>  </tr> <td>786-8225</td> <td>Maria Sovalbarro</td>  </tr> <tr> <td>78952-6888</td> <td>Pedro Ramos</td>  </tr> <tr> <td>89285-595</td> <td>Sofía Castro</td> </tr> </tbody> </table>
+                <table class="content-table">
+                    <thead>
+                        <tr>
+                            <th>Identificación</th>
+                            <th>Nombre</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>178-4828</td>
+                            <td>Juan Perez</td>
+                        </tr>
+                        <td>786-8225</td>
+                        <td>Maria Sovalbarro</td>
+                        </tr>
+                        <tr>
+                            <td>78952-6888</td>
+                            <td>Pedro Ramos</td>
+                        </tr>
+                        <tr>
+                            <td>89285-595</td>
+                            <td>Sofía Castro</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
 
@@ -33,7 +58,11 @@
 
 
         </form>
+
     </main>
+    <?php
+        include("./footer.php");
+    ?>
 </body>
 
 </html>

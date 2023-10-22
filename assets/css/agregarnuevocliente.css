@@ -16,12 +16,53 @@
 
 .agregar_nuevocliente{
     max-width: 1200px;
-    height: 100%;
+    height: fit-content;
     margin: auto;
     margin-top: 40px;
-   
-   
     padding: 0px 20px;
     background: rgba(214, 222, 245, 0.201);
 
+}
+.datoscliente{
+   
+   
+   justify-content:space-between;
+   padding: 20px;
+  
+}
+label{
+    display: flexbox;
+   font-size: x-large;
+}
+textarea{
+    width: 300px;
+    height: 30px;
+    font-size: larger;
+    
+}
+input{
+
+    border: none;
+    background: none;
+    color: black;
+    border: none;
+    width: 250px;
+    outline:0px;
+    border-bottom: 2px solid grey;
+    font-size: larger;
+}
+.btnguardar{
+    cursor: pointer;
+    color: white;
+    background: var(--color_text-primario);
+    border: 5px;
+    border-radius: 5px;
+    font-size: larger;
+    width: 120px;
+    height: 25px;
+    box-shadow: 0px 0px 2px 2px rgb(44, 65, 98);
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 450px;
 }

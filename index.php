@@ -28,6 +28,7 @@
                     <li>Quienes somos</li>
 
                     <li>Registrate</li>
+                   
 
                 </ul>
 
@@ -57,4 +58,9 @@
 
         </div>
     </div>
+
+
+    <?php
+        include("../footer.php");
+    ?>
 </body>
