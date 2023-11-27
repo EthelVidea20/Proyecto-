@@ -15,7 +15,7 @@
 }
 
 
-.agregar_nuevocliente{
+.agregar_nuevoproveedor{
     max-width: 1200px;
     height: fit-content;
     margin: auto;
@@ -24,7 +24,7 @@
     background: rgba(214, 222, 245, 0.201);
 
 }
-.datoscliente{
+.datosproveedor{
    
    
    justify-content:space-between;
@@ -67,3 +67,4 @@ input{
     margin-bottom: 10px;
     margin-left: 450px;
 }
+

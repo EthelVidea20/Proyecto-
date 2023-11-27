@@ -17,7 +17,7 @@
 form{
     background: rgba(214, 222, 245, 0.201);
 }
-.clientes {
+.proveedor{
     max-width: 1200px;
     height: 100%;
     margin: auto;
@@ -28,7 +28,7 @@ form{
     padding: 0px 20px;
     background: rgba(214, 222, 245, 0.201);
 }
-.listaclientes{
+.listaproveedor{
     max-width: 1200px;
     height: 100%;
     margin: auto;

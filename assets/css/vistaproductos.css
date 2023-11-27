@@ -14,10 +14,20 @@
     --color_text_terciario: #F6F1EF;
 
 }
-form{
+
+
+.Busqueda{
+    max-width: 1200px;
+    height: fit-content;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 20px;
     background: rgba(214, 222, 245, 0.201);
 }
-.clientes {
+.listadoproductos{
     max-width: 1200px;
     height: 100%;
     margin: auto;
@@ -28,68 +38,15 @@ form{
     padding: 0px 20px;
     background: rgba(214, 222, 245, 0.201);
 }
-.listaclientes{
-    max-width: 1200px;
-    height: 100%;
-    margin: auto;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0px 20px;
-    background: rgba(214, 222, 245, 0.201);
-
-}
-
-
 
 input {
 
     color: black;
-    width: 450px;
+    width: 250px;
     height: 30px;
     outline: invert;
 
 }
-
-.btnbuscar {
-    color: white;
-    background: var(--color_text-primario);
-    border: 5px;
-    border-radius: 5px;
-    font-size: larger;
-    width: 120px;
-    height: 25px;
-    cursor: pointer;
-    box-shadow: 0px 0px 2px 2px rgb(44, 65, 98);
-}
-
-.btnbuscar:hover {
-    background-color: cornflowerblue;
-    color: #000000;
-    transition: 0.7s;
-}
-
-.btnnuevo {
-    cursor: pointer;
-    color: white;
-    background: var(--color_text-primario);
-    border: 5px;
-    border-radius: 5px;
-    font-size: larger;
-    width: 120px;
-    height: 25px;
-    box-shadow: 0px 0px 2px 2px rgb(44, 65, 98);
-    text-align: center;
-
-}
-
-.btnnuevo:hover {
-    background-color: cornflowerblue;
-    color: #000000;
-    transition: 0.7s;
-}
-
 .content-table {
     border-collapse: collapse;
     margin: 25px 0;
