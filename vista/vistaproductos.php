@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/vistaproductos.css">
+    <link rel="stylesheet" href="../assets/css/menu_lateral.css">
     <title>ListadoProductos</title>
 </head>
 
 <body>
     <?php
     include("./header.php");
+    include "./menu_lateral.php";
     ?>
     <main>
         <form action="">

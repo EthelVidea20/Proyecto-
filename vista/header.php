@@ -1,42 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
+<header>
+    <div class="btn-menu">
+        <label for="btn-menu">☰</label>
+    </div>
+    <div class="container_header">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cliente</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
-</head>
 
-<body>
-    <header>
-        <div class="container_header">
+        <div class="logo">
+            <a href="../index.php">
+                <img src="../assets/img/Logo_G_P.png" alt="">
+            </a>
+        </div>
 
-            <div class="logo">
-                <a href="./index.php">
-                    <img src="../assets/img/Logo_G_P.png" alt="">
-                </a>
-            </div>
-
-            <div class="menu">
-                <nav id="nav">
-                    <ul>
-
-                        <li>Funcionalidades</li>
-                        <li>Quienes somos</li>
-
-                        <li>Registrate</li>
-
-                    </ul>
+        <div class="menu">
+            <nav id="nav">
+                <ul>
+                    <li><a href="../vista/quienes_somos.php">Quienes somos</a></li>
+                    <li><a href="../vista/contactanos.php">Contacto</a></li>
                     
+                </ul>
 
-                </nav>
+                <input type="button" value="Registrate" class="btnregistro">
 
-            </div>
+            </nav>
 
         </div>
-    </header>
 
-</body>
+    </div>
 
-</html>
+</header>

@@ -1,51 +1,20 @@
-<?php
-
-
-
-
-?>
-
-<!--CREACION DE PAGINA PRINCIPAL-->
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/menu_lateral.css">
+    <title>Principal</title>
 </head>
 
-<header>
-    <div class="container_header">
-
-        <div class="logo">
-            <a href="../index.php">
-                <img src="../assets/img/Logo_G_P.png" alt="">
-            </a>
-        </div>
-
-        <div class="menu">
-            <nav id="nav">
-                <ul>
-
-                    <li>Funcionalidades</li>
-                    <li>Quienes somos</li>
-                    <li>Registrate</li>
-                    <li>Contacto</li>
-
-
-
-
-                </ul>
-                
-                <input type="button" value="Registrate" class="btnregistro">
-
-            </nav>
-
-        </div>
-
-    </div>
-
-</header>
 
 <body>
-    <div class="contenedor">
+    <?php include "./header.php" ?>
+    <?php include "./menu_lateral.php" ?>
+
+    <main class="contenedor">
 
 
         <div class="portada">
@@ -56,14 +25,15 @@
         <div class="botones">
             <p>GP es la mejor Herramienta para gestionar tus presupuestos,
                 pudes facturar, ingresar tus ingresos todo en una sola pagina GP</p>
-            <input type="button" value="Inicia seccion" class="btninicio">
-            <input type="button" value="Registrate" class="btnregistro">
+            <a href="../iniciosesion.php" class="btninicio">Inicia seccion</a>
+            <input type="button" value="Registrate" class="btnregistrop">
+
 
         </div>
-    </div>
+    </main>
 
 
     <?php
-        include("../vista/footer.php");
+    include("../vista/footer.php");
     ?>
 </body>

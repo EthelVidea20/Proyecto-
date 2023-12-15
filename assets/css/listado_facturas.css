@@ -6,84 +6,97 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-}
 
+}
+main{
+    min-height: 290px;
+    background: rgba(214, 222, 245, 0.201);
+}
 :root {
     --color_text-primario: #34358D;
     --color_text_secundario: #000000;
     --color_text_terciario: #F6F1EF;
 
 }
-form{
-    background: rgba(214, 222, 245, 0.201);
-}
-.proveedor{
+
+
+.listado_factura{
     max-width: 1200px;
     height: 100%;
     margin: auto;
     margin-top: 40px;
-    display: flex;
+    display: block;
     justify-content: space-evenly;
     align-items: center;
     padding: 0px 20px;
+    
+
 }
-.listaproveedor{
-    max-width: 1200px;
-    height: 100%;
-    margin: auto;
-    margin-top: 40px;
+.Busqueda{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    padding: 0px 20px;
-    background: rgba(214, 222, 245, 0.201);
-
 }
-
-
 
 input {
 
     color: black;
-    width: 450px;
-    height: 30px;
+    width: 180px;
+    height: 35px;
     outline: invert;
+    font-size: 20px;
 
 }
+.botones_factura{
+    margin-top: 15px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: larger;
 
-.btnbuscar {
+}
+.btnrefrescar{
+   margin-right: 180px;
+}
+.btnBuscar {
     color: white;
     background: var(--color_text-primario);
     border: 5px;
     border-radius: 5px;
-    font-size: larger;
     width: 120px;
-    height: 25px;
     cursor: pointer;
     box-shadow: 0px 0px 2px 2px rgb(44, 65, 98);
+    
+}
+.btnrefrescar {
+    color: white;
+    background: var(--color_text-primario);
+    border: 5px;
+    border-radius: 5px;
+    width: 180px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px rgb(44, 65, 98);
+    
 }
 
-.btnbuscar:hover {
+.btnBuscar:hover {
     background-color: cornflowerblue;
     color: #000000;
     transition: 0.7s;
 }
 
-.btnnuevo {
+.btnNuevo {
     cursor: pointer;
     color: white;
     background: var(--color_text-primario);
     border: 5px;
     border-radius: 5px;
-    font-size: larger;
     width: 120px;
-    height: 25px;
     box-shadow: 0px 0px 2px 2px rgb(44, 65, 98);
     text-align: center;
 
 }
 
-.btnnuevo:hover {
+.btnNuevo:hover {
     background-color: cornflowerblue;
     color: #000000;
     transition: 0.7s;
@@ -111,4 +124,3 @@ caption, td, th {
     border-bottom: 1px solid #999;
     width: 25%;
 }
-

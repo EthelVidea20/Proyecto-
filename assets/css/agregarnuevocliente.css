@@ -4,9 +4,13 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 
 }
-
+main{
+    min-height: 290px;
+    background: rgba(214, 222, 245, 0.201);
+}
 :root {
     --color_text-primario: #34358D;
     --color_text_secundario: #000000;

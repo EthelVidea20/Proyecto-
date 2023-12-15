@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
     <link rel="stylesheet" href="../assets/css/productos.css">
+    <link rel="stylesheet" href="../assets/css/menu_lateral.css">
 </head>
 
 <body>
     <?php
     include("./header.php");
+    include "./menu_lateral.php";
+    
     ?>
     <main>
         <form action="">

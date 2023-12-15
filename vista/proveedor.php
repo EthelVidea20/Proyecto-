@@ -6,23 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proveedor</title>
     <link rel="stylesheet" href="../assets/css/proveedor.css">
+    <link rel="stylesheet" href="../assets/css/menu_lateral.css">
 </head>
 
 <body>
 
     <?php
     include("./header.php");
+    include "./menu_lateral.php";
     ?>
     <main>
         <form class="contenedor_proveedor">
             <div class="proveedor">
-                <h2>Clientes:</h2>
+                <h2>Proveedor:</h2>
 
                 <input type="text" name="buscar" id="" placeholder="Buscar">
                 <input type="button" value="Buscar" class="btnbuscar">
                 <a href="../"></a>
 
-                <!--AGREGAR CREAR PROVEEDOR--><a href="../vista/agregarnuevocliente.php" class="btnnuevo">Nuevo</a>
+                <!--AGREGAR CREAR PROVEEDOR--><a href="../vista/agregarproveedor.php" class="btnnuevo">Nuevo</a>
             </div>
             <div class="listaproveedor">
                 <table class="content-table">
